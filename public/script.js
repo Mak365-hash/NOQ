@@ -36,7 +36,7 @@ navigator.mediaDevices.getUserMedia({
     }
   });
   socket.on("createMessage", message => {
-    $("ul").append(`<li class="message"><b>`,Math.floor(Math.random(1,2)).toString(2),`</b><br/>${message}</li>`);
+    $("ul").append(`<li class="message"><b>User</b><br/>${message}</li>`);
     scrollToBottom()
   })
 })
