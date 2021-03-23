@@ -1,40 +1,32 @@
-# React Discord Clone
+# ZOOMIEE #
+Greetings to the Readers !
+I have created website to deliver a platform to the user in which one can easily communicate and interact with larger groups all around. Specifically its a replica similar to zoom
+and other similar applications. <br/>
+Where individulas can talk on video call, share content, hold meetings, classes or can simply chat. <br/>
+Using these basic features can bring about tremendous beneficial aspects: <br/>
+* HEALTH SECTOR <br/> 
+* EDUCATIONAL SECTOR (especially for students) <br/>
+* PROFESSIONAL SECTOR
+<br/>
 
-> Functional Discord Clone written in Typescript using React, Socket IO, NodeJS, Express and MySQL
+How to use this app 
+---------------
+Anyone who wishes to conduct a free meeting (with or without video) has to just click on this link : <br/>
+<div align="center">
+<pre>
+<a href="https://thawing-headland-23372.herokuapp.com/">https://thawing-headland-23372.herokuapp.com/</a>
+</pre>
+</div>
+A unique room id will be genrated each time when you open the above link, later share the link with the person with whom you want to start the meeting and he will be in the same meeting room. <br/>
+You have to give permission to your camera and microphone when using this app for the first time.
 
-View the live verison at -> http://ericellb.github.io/React-Discord-Clone
+## Technologies Used ##
+```
+ 1) Node.js
+ 2) Express JS
+ 3) CSS
+ 4) Socket.IO
+ 5) PeerJS
+ 6) uuid
+```
 
-Check out the backend code! -> https://github.com/ericellb/React-Discord-API
-
-** This project is not currently maintained. If you have any inquiries please reach out to me ericellb@gmail.com **
-
-Originally started as a simple chatting application to test my Frontend + Backend skills, magically turned into a Discord Clone.
-
-![layout image](public/app.png)
-
-
-## Features
-
-Implemented Features
-
-- [x] Real time messaging using Socket IO
-- [x] Local Authentication
-- [x] Loads User Data upon login (Servers, Channels, Private Messages)
-- [x] Creation and Joining Servers
-- [x] Creation of Channels in a Server
-- [x] Server Settings (Change name and delete)
-- [x] Channel Settings (Change name and delete)
-- [x] Persistent channel history
-- [x] Pretty Print Code Blocks enclodes in three `
-- [x] Private messaging
-- [x] Timestamps for messages
-- [x] Show current active users in given server
-- [x] Convert to Typescript
-- [x] Voice Chat (Buggy, but main features work)
-
-
-## License
-
-Copyright Eric Ellbogen 2019
-
-- This project is under the **GNU V3** license. [Find it here](https://github.com/ericellb/React-Discord-Clone/blob/master/LICENSE).
